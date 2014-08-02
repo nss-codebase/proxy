@@ -1,0 +1,28 @@
+{
+  "name": "proxy",
+  "version": "0.0.0",
+  "description": "Node Proxy Server",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nss-cohort-2014-06-07/proxy"
+  },
+  "author": "Chyld Medford <chyld.medford@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nss-cohort-2014-06-07/proxy/issues"
+  },
+  "homepage": "https://github.com/nss-cohort-2014-06-07/proxy",
+  "dependencies": {
+    "http-proxy": "^1.1.6"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "jshint-stylish": "^0.4.0"
+  }
+}
